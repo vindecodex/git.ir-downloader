@@ -34,5 +34,5 @@ func main() {
 		fmt.Println("Visiting", r.URL.String())
 	})
 
-	c.Visit("https://git.ir/skillshare-build-your-first-app-with-react-native-and-expo/")
+	c.Visit("https://git.ir/course-link-sample")
 }
