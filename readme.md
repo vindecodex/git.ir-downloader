@@ -10,7 +10,5 @@ Created a script for downloading latest way of git.ir website.
 
 ##### Usage
 - edit inside `main.go line 37` change url of desired course
-- be sure to have `url.txt` file
+- be sure to have `url.txt` file and must be empty
 - run `go run main.go` on terminal in root directory of this project
-- check url.txt if already had a url's list
-- run `dl.sh` by : `sh dl.sh` on terminal in root directory of this project
