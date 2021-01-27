@@ -37,5 +37,9 @@ func main() {
 
 	c.Visit("https://git.ir/course-title/")
 
-	exec.Command("sh ./dl.sh")
+	cmd := exec.Command("sh ./dl.sh")
+	err := cmd.Run()
+	if err != nil {
+		fmt.Println(err)
+	}
 }
