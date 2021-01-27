@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
+	"os/exec"
 
 	"github.com/gocolly/colly"
 )
@@ -34,5 +35,7 @@ func main() {
 		fmt.Println("Visiting", r.URL.String())
 	})
 
-	c.Visit("https://git.ir/course-link-sample")
+	c.Visit("https://git.ir/course-title/")
+
+	exec.Command("sh ./dl.sh")
 }
